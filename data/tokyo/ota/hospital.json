@@ -1,0 +1,21 @@
+[{
+        "name_ja": "東邦大学医療センター大森病院",
+        "name_en": "Toho University Omori Medical Center",
+        "zip": "143-8541",
+        "position": { "lat": 35.5689429, "lng": 139.7241145 },
+        "address_ja": "東京都大田区大森西 6-１１-１",
+        "address_en": "6-11-1 Omorinishi, Ota-ku, Tokyo",
+        "phone": "03-3762-4151",
+        "url_ja": "https://www.omori.med.toho-u.ac.jp",
+        "url_en": "https://www.omori.med.toho-u.ac.jp",
+        "url_zh": null,
+        "url_ko": null,
+        "dentistry": ["en", "zh"],
+        "internal_medicine": ["en", "zh"],
+        "dermatology": null,
+        "obgyn": ["en", "zh"],
+        "psychiatry": null,
+        "pediatrics": null
+    },
+    {}
+]

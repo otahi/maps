@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "es2021",
+        "module": "ES2022",
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./build",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+          "axios": ["node_modules/axios/dist/"],
+        },
+        "esModuleInterop": true,
+      },
+      "include": ["./src/*.ts", "./src/**/*.ts", "./lib/**/*.ts"],
+}
