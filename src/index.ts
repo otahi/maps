@@ -1,9 +1,13 @@
 import axios from 'axios';
 
-function addItem(item:{name_ja:string, position:{lat:number, lng:number}}, map:google.maps.Map): void {
-    const name_ja = item.name_ja;
-    const postion = item.position;
-    const content = `<div>${name_ja}</div>`;
+function addItem(item: any, map:google.maps.Map): void {
+    const { name_ja, name_en, position, phone} = item;
+
+    const content = `
+    <div>${name_ja}</div>
+    <div>${name_en}</div>
+    <div><a href="tel:${phone.replace("-","")}">${phone}</div>
+    `;
 
     const infowindow = new google.maps.InfoWindow({
       content: content,
@@ -11,7 +15,7 @@ function addItem(item:{name_ja:string, position:{lat:number, lng:number}}, map:g
     });
 
     const marker = new google.maps.Marker({
-      position: postion,
+      position: position,
       map,
       title: name_ja,
     });
