@@ -14,7 +14,7 @@ async function convertCsvToJson(csvFilePath, jsonFilePath) {
                     name_ja: row.name_ja,
                     name_en: row.name_en,
                     zip: row.zip,
-                    position: { lat: row.lat, lng: row.lng },
+                    position: { lat: Number(row.lat), lng: Number(row.lng) },
                     address_ja: row.address_ja,
                     address_en: row.address_en,
                     phone: row.phone,

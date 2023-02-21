@@ -4,8 +4,8 @@
         "name_en": "Luz Omori Apl' Dental Clinic",
         "zip": "143-0016",
         "position": {
-            "lat": "35.5864891",
-            "lng": "139.7282409"
+            "lat": 35.5864891,
+            "lng": 139.7282409
         },
         "address_ja": "東京都大田区大森北1-10-14 Luz大森8F",
         "address_en": "8F, Luz Omori, 1-10-14 Omorikita, Ota-ku, Tokyo",
@@ -40,8 +40,8 @@
         "name_en": "Ikemura Dental Clinic",
         "zip": "146-0082",
         "position": {
-            "lat": "35.5721512",
-            "lng": "139.7014882"
+            "lat": 35.5721512,
+            "lng": 139.7014882
         },
         "address_ja": "東京都大田区池上7-6-8",
         "address_en": "7-6-8 Ikegami, Ota-ku, Tokyo",
@@ -74,8 +74,8 @@
         "name_en": "Taiseikai Onishi Clinic",
         "zip": "143-0014",
         "position": {
-            "lat": "35.5690592",
-            "lng": "139.7317331"
+            "lat": 35.5690592,
+            "lng": 139.7317331
         },
         "address_ja": "東京都大田区大森中1-18-6",
         "address_en": "1-18-6 Omorinaka, Ota-ku, Tokyo",
@@ -108,8 +108,8 @@
         "name_en": "Egawa Dental Clinic",
         "zip": "144-0051",
         "position": {
-            "lat": "35.5636727",
-            "lng": "139.7146037"
+            "lat": 35.5636727,
+            "lng": 139.7146037
         },
         "address_ja": "東京都大田区西蒲田7-6-8",
         "address_en": "7-6-8 Nishikamata, Ota-ku, Tokyo",
@@ -143,8 +143,8 @@
         "name_en": "Ootorii Hospital",
         "zip": "144-0034",
         "position": {
-            "lat": "35.5557628",
-            "lng": "139.7385146"
+            "lat": 35.5557628,
+            "lng": 139.7385146
         },
         "address_ja": "東京都大田区西糀谷3-8-16",
         "address_en": "3-8-16 Nishikojiya, Ota-ku, Tokyo",
@@ -177,8 +177,8 @@
         "name_en": "Omori・Tokyo Oral & Maxillofacial Surgery",
         "zip": "143-0016",
         "position": {
-            "lat": "35.5864891",
-            "lng": "139.7282409"
+            "lat": 35.5864891,
+            "lng": 139.7282409
         },
         "address_ja": "東京都大田区大森北1-10-14 Luz大森8F",
         "address_en": "8F, Luz Omori, 1-10-14 Omorikita, Ota-ku, Tokyo",
@@ -213,8 +213,8 @@
         "name_en": "Kamata Mental Clinic",
         "zip": "144-0051",
         "position": {
-            "lat": "35.5612766",
-            "lng": "139.714873"
+            "lat": 35.5612766,
+            "lng": 139.714873
         },
         "address_ja": "東京都大田区西蒲田8-1-7 グランタウンビル3F",
         "address_en": "3F, Grantown Building, 8-1-7 Nishikamata, Ota-ku, Tokyo",
@@ -247,8 +247,8 @@
         "name_en": "Qchan Shinryosho Clinic",
         "zip": "144-0047",
         "position": {
-            "lat": "35.5515237",
-            "lng": "139.7312541"
+            "lat": 35.5515237,
+            "lng": 139.7312541
         },
         "address_ja": "東京都大田区萩中2-6-17-101",
         "address_en": "2-6-17-101 Haginaka, Ota-ku, Tokyo",
@@ -281,8 +281,8 @@
         "name_en": "Tokyo Ryutsu Center Dental Clinic",
         "zip": "143-0006",
         "position": {
-            "lat": "35.5778941",
-            "lng": "139.7492225"
+            "lat": 35.5778941,
+            "lng": 139.7492225
         },
         "address_ja": "東京都大田区平和島6-1-1 東京流通センタービル1階131号",
         "address_en": "Room 13, 1F, Tokyo Ryutsu Center Building, 6-1-1 Heiwajima, Ota-ku, Tokyo",
@@ -315,8 +315,8 @@
         "name_en": "Mori Dental Clinic",
         "zip": "143-0016",
         "position": {
-            "lat": "35.5867884",
-            "lng": "139.7283607"
+            "lat": 35.5867884,
+            "lng": 139.7283607
         },
         "address_ja": "東京都大田区大森北 1-11-18-201",
         "address_en": "1-11-18-201 oomorikita Oota-ku Tokyo",
@@ -350,8 +350,8 @@
         "name_en": "kawanabe dental clinic",
         "zip": "144-0034",
         "position": {
-            "lat": "35.5545646",
-            "lng": "139.7306655"
+            "lat": 35.5545646,
+            "lng": 139.7306655
         },
         "address_ja": "東京都大田区西糀谷4-21-4Tビル1・2階",
         "address_en": "1st and 2nd floor, 4-21-4 T Building, Nishikoujiya, Ota-ku, Tokyo",
@@ -384,8 +384,8 @@
         "name_en": "Toho University Omori Medical Center",
         "zip": "143-8541",
         "position": {
-            "lat": "35.5689429",
-            "lng": "139.7241145"
+            "lat": 35.5689429,
+            "lng": 139.7241145
         },
         "address_ja": "東京都大田区大森西 6-１１-１",
         "address_en": "6-11-1 Omorinishi, Ota-ku, Tokyo",
@@ -422,8 +422,8 @@
         "name_en": "Tokyo Metropolitan Health and Hospitals Corporation Ebara Hospital",
         "zip": "145-0065",
         "position": {
-            "lat": "35.5938722",
-            "lng": "139.6929721"
+            "lat": 35.5938722,
+            "lng": 139.6929721
         },
         "address_ja": "東京都大田区東雪谷四丁目5-10",
         "address_en": "4-5-10 Higashiyukigaya, Ota-ku, Tokyo",
