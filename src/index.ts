@@ -32,11 +32,17 @@ function initMap(): void {
         icon: { url: "./img/hospital.svg", scaledSize: new google.maps.Size(40, 40) },
       });
 
+      let isOpen = false;
       marker.addListener("click", () => {
-        infowindow.open({
-          anchor: marker,
-          map,
-        });
+        if(isOpen) {
+          infowindow.close();
+        } else {
+          infowindow.open({
+            anchor: marker,
+            map,
+          });
+        }
+        isOpen = !isOpen;
       });
   }
 
