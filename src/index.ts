@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 function initMap(): void {
+
     function addItem(item: any, map:google.maps.Map): void {
       const { name_ja, name_en, position, phone, url_ja, url_en} = item;
 
@@ -28,6 +29,7 @@ function initMap(): void {
         position: position,
         map,
         title: name_ja,
+        icon: { url: "./img/hospital.svg", scaledSize: new google.maps.Size(40, 40) },
       });
 
       marker.addListener("click", () => {
