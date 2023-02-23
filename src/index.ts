@@ -1,13 +1,22 @@
 import axios from 'axios';
 
 function addItem(item: any, map:google.maps.Map): void {
-    const { name_ja, name_en, position, phone} = item;
+    const { name_ja, name_en, position, phone, url_ja, url_en} = item;
 
-    const content = `
-    <div>${name_ja}</div>
-    <div>${name_en}</div>
-    <div><a href="tel:${phone.replace("-","")}">${phone}</div>
-    `;
+    let content = '';
+
+    content +=
+      url_ja ?
+        `<div><a target="_blank" href="${url_ja}">${name_ja}</a></div>` :
+        `<div>${name_ja}</div>`
+
+    content +=
+      url_en ?
+        `<div><a target="_blank" href="${url_en}">${name_en}</a></div>` :
+        `<div>${name_en}</div>`
+
+    content +=
+        `<div><a href="tel:${phone.replace("-","")}">${phone}</a></div>`
 
     const infowindow = new google.maps.InfoWindow({
       content: content,
