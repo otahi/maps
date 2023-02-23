@@ -28,7 +28,7 @@ function initMap(): void {
       const marker = new google.maps.Marker({
         position: position,
         map,
-        title: name_ja,
+        title: `${name_en}\n${name_ja}`,
         icon: { url: "./img/hospital.svg", scaledSize: new google.maps.Size(40, 40) },
       });
 
